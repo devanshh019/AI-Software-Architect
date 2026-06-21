@@ -522,7 +522,7 @@ def extract_tech_stack(text):
 # ════════════════════════════════════════════════════════════════════════
 def render_sidebar(backend, backend_error):
     with st.sidebar:
-        st.markdown("### 🏛️ Architecture ")
+        st.markdown("### 🏛️ Architect ")
         st.caption("RAG-powered system design copilot")
 
         st.markdown('<div class="sidebar-section-title">System Status</div>', unsafe_allow_html=True)
@@ -594,7 +594,7 @@ def render_sidebar(backend, backend_error):
 # QUERY SECTION
 # ════════════════════════════════════════════════════════════════════════
 def render_query_section(backend):
-    st.markdown('<div class="hero-title">AI Software Architecture Agent</div>', unsafe_allow_html=True)
+    st.markdown('<div class="hero-title">AI Software Architect</div>', unsafe_allow_html=True)
     st.markdown(
         '<div class="hero-subtitle">Production-Ready System Design powered by RAG</div>',
         unsafe_allow_html=True,
