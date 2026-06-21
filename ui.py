@@ -35,7 +35,7 @@ from dotenv import load_dotenv
 # PAGE CONFIG
 # ════════════════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="AI Software Architecture Agent",
+    page_title="AI Software Architect",
     page_icon="🏛️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -522,7 +522,7 @@ def extract_tech_stack(text):
 # ════════════════════════════════════════════════════════════════════════
 def render_sidebar(backend, backend_error):
     with st.sidebar:
-        st.markdown("### 🏛️ Architecture Agent")
+        st.markdown("### 🏛️ Architecture ")
         st.caption("RAG-powered system design copilot")
 
         st.markdown('<div class="sidebar-section-title">System Status</div>', unsafe_allow_html=True)
